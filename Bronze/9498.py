@@ -1,4 +1,4 @@
-score = int(input())
+score = int(input()) # score = input() 하면 안됨, int로 변환해줘야함
 
 if 90 <= score <= 100 :
     print('A')
