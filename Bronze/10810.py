@@ -1,5 +1,5 @@
 N, M = map(int,input().split())
-arr = [0] * N # 바구니를 0으로 초기화화
+arr = [0] * N # 바구니를 0으로 초기화
 
 for _ in range(M):
     i, j, k = map(int, input().split())
