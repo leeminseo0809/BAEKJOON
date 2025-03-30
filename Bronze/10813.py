@@ -3,7 +3,7 @@
 
 N, M = map(int,input().split())
 
-arr = list(range(1, N+1)) # # 1부터 N까지의 숫자를 리스트로 초기화
+arr = list(range(1, N+1)) # 1부터 N까지의 숫자를 리스트로 초기화
 
 for _ in range(M):
     i, j = map(int, input().split())
